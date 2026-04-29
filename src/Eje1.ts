@@ -1,4 +1,4 @@
-/*type state = "finished" | "pending" | "in_progress";
+type state = "finished" | "pending" | "in_progress";
 type Task = {
   id: number;
   description: string;
@@ -29,4 +29,4 @@ const task3: Task = {
   description: "Listo",
   isCompleted: true,
   state: "finished",
-}; */
+}; 
